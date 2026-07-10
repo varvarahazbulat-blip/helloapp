@@ -4,9 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Не трогаем: это результат синхронизации с White
         Console.WriteLine("hello everyone");
+
+        greetWhite();
+        greetBlack();
     }
+
 
     // Метод от White — оставляем без изменений
     static void greetWhite()
